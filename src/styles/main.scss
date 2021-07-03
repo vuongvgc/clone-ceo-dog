@@ -1,0 +1,21 @@
+// Abstracts
+@import './abstracts/functions';
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+// Base
+@import './base/typography';
+@import './base/utilities';
+@import './base/base';
+
+// Component
+
+// Layouts
+@import './layouts/header';
+@import './layouts/business';
+@import './layouts/information';
+@import './layouts/breedsList';
+@import './layouts/footer';
+
+// Pages
+@import './pages/homePage'
