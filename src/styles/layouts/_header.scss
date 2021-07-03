@@ -1,0 +1,27 @@
+.header__box {
+    width: 46%;
+    margin: 0 auto;
+    padding-bottom: 18px;
+    border-bottom: 2px solid $color-primary-light;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+
+    .header__text {
+        font-size: $fs-0;
+        font-weight: 300;
+        padding: 0.5rem;
+
+    }
+
+    .header__logo {
+        height: 4.8rem;
+        width: auto;
+        padding: 0 3.6rem;
+
+        img {
+            height: 100%;
+        }
+    }
+}
