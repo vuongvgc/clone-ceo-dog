@@ -38,7 +38,7 @@ function Information() {
             source dog pictures"
           />
           <p className="dog-icon__box">
-            <i class="fa fa-dog"></i>
+            <i className="fa fa-dog"></i>
           </p>
         </div>
       </div>

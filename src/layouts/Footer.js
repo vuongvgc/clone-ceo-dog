@@ -3,10 +3,10 @@ function Footer() {
     <footer className="footer__box">
       <div className="social__box">
         <div className="icon__social">
-          <i class="fab fa-linkedin-in"></i>
+          <i className="fab fa-linkedin-in"></i>
         </div>
         <div className="icon__social">
-          <i class="fab fa-twitter"></i>
+          <i className="fab fa-twitter"></i>
         </div>
       </div>
       <div className="footer__text">
