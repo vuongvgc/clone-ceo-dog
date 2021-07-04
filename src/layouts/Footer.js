@@ -1,13 +1,10 @@
+import IconSocial from "../components/IconSocial";
 function Footer() {
   return (
     <footer className="footer__box">
       <div className="social__box">
-        <div className="icon__social">
-          <i className="fab fa-linkedin-in"></i>
-        </div>
-        <div className="icon__social">
-          <i className="fab fa-twitter"></i>
-        </div>
+        <IconSocial iconName="fab fa-linkedin-in" />
+        <IconSocial iconName="fab fa-twitter" />
       </div>
       <div className="footer__text">
         <p>Need business advice?</p>

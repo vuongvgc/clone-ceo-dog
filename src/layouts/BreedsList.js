@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Loader from "../components/Loader";
 function BreedsList() {
-  const [breed, setBreed] = useState("");
+  const [breed, setBreed] = useState("affenpinscher");
   const [breedsList, setBreedsList] = useState([]);
   const [dogImage, setDogImage] = useState([""]);
   const [statusAPI, setStatusAPI] = useState(false);
