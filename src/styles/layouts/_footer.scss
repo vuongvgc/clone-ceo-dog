@@ -1,0 +1,24 @@
+.footer__box {
+    margin: 5.4rem auto;
+    text-align: center;
+
+    .social__box {
+        width: 55%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding: 7.2rem 13.7rem 2.7rem 13.7rem;
+        border-top: 2px solid $color-primary-light;
+
+        .icon__social {
+            height: 3.6rem;
+            width: 3.6rem;
+            background-color: $color-secondary;
+            color: $color-white;
+            border-radius: 50%;
+            margin-right: 1.4rem;
+        }
+    }
+
+    .footer__text {}
+}
