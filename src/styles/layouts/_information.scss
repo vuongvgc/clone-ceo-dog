@@ -1,9 +1,18 @@
 .information__box {
     display: flex;
 
+    @include respond(phone) {
+        display: block;
+        padding: 1rem;
+    }
+
     .newspaper__box {
         width: 50%;
         padding: 0 2rem;
+
+        @include respond(phone) {
+            width: 100%;
+        }
 
         .newspaper__header {
             font-size: $fs-2;
@@ -14,6 +23,10 @@
         width: 50%;
         height: 100%;
         padding: 3rem 1.5rem;
+
+        @include respond(phone) {
+            width: 100%;
+        }
 
         .dog-api__box {
             background-color: $color-secondary;

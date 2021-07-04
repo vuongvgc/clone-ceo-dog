@@ -13,6 +13,7 @@ function BreedsList() {
     });
     axios.get("https://dog.ceo/api/breeds/image/random").then((res) => {
       setDogImage(res.data.message);
+      setStatusAPI(true);
     });
   }, []);
   function handleChangeBreed(event) {

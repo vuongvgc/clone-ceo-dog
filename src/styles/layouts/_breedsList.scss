@@ -1,6 +1,10 @@
 .breeds-list__box {
     padding: 4rem 0;
-    margin-bottom: 2rem;
+    padding-bottom: 0;
+
+    @include respond(phone) {
+        margin: 2rem;
+    }
 
     .breeds-list__header {
         font-size: $fs-3;
