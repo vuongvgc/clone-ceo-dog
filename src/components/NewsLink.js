@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 function NewsLink(props) {
   return (
     <a className="nav-link" href={props.link} alt="props.description">
@@ -6,3 +7,8 @@ function NewsLink(props) {
   );
 }
 export default NewsLink;
+
+NewsLink.propTypes = {
+  link: PropTypes.string,
+  description: PropTypes.string,
+};
